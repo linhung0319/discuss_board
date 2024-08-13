@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Reddit Simple Clone
 
-## Getting Started
+![image](./discuss.PNG)
 
-First, run the development server:
+A simplified Reddit clone built with Next.js, featuring user authentication, topic creation, posting, and commenting functionalities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+[Reddit Simple Clone](https://linhung0319-discuss-board.vercel.app/)
+
+## Features
+
+- User authentication (login/logout)
+- Topic creation
+- Post creation within topics
+- Commenting on posts and replies to comments
+- Topic-based post filtering
+- Keyword search for post titles
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- next-auth for authentication
+- TailwindCSS for styling
+- Server Actions for data mutations
+- Server-Side Rendering (SSR) and Static Site Generation (SSG)
+- Incremental Static Regeneration (ISR)
+- Next.js Image component for optimized images
+
+## Installation and Usage
+
+1. Clone the repository:
+
+```
+git clone https://github.com/linhung0319/discuss_board.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Run the development server:
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is configured for easy deployment on Vercel. Simply connect your GitHub repository to Vercel for automatic deployments on every push to the main branch.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For other hosting platforms, ensure you set up the necessary environment variables and build commands as specified in the `package.json` file.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact Information
+If you have any questions or suggestions about this project, feel free to contact me:
+- Email: linhung0319@gmail.com
+- Portfolio: [My Portfolio](https://linhung0319.vercel.app/)
+- Linkedin: [My Linkedin](https://www.linkedin.com/in/hung-lin/)
