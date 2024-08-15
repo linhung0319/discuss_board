@@ -1,4 +1,4 @@
-# Reddit Simple Clone
+# Simple Reddit Clone
 
 ![image](./discuss.PNG)
 
